@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<style>
+			.field{
+				margin-left:200px;
+				margin-right:200px;
+				margin-top:200px;
+			}
+			.formclass{
+				background-color: #fff; 
+			}
+			
+			body{
+				background-color: #fff; 
+				background-image: 
+				linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+				linear-gradient(#eee .1em, transparent .1em);
+				background-size: 100% 1.2em;
+			}
+		</style>
+	
+	</head>
+	<body>
+		<center>
+		<fieldset class="field" >
+			<legend><strong>USER Registration form</strong></legend>
+		<form name="login" action="login.php" method="post" class="formclass">
+		<label for="mail">Enter your mail id:</label><br/>
+		<input type="text" name="mail" required><br/><br/> 
+		<label for="password">Enter your password:</label><br/>
+		<input type="password" name="password" required/><br/><br/> 
+		<input type="submit" value="submit" />
+		</form>
+		</fieldset>
+		</center>
+	</body>
+</html>
